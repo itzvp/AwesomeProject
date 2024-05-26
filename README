@@ -26,15 +26,15 @@ This project is a simple YouTube clone built with React Native, allowing users t
 
    ```
 
-Install dependencies:
-npm install
+## Install dependencies:
+ npm install
 
 - npm start # you can open iOS, Android, or web from here, or run them directly with the commands below.
 - npm run android
 - npm run ios # requires an iOS device or macOS for access to an iOS simulator
 - npm run web
 
-File Structure
+## File Structure
 
 ├── assets
 │ └── styles.js # Contains styles for the app
@@ -47,5 +47,5 @@ File Structure
 ├── package.json # Project metadata and dependencies
 └── README.md # This file
 
-API Endpoint
+## API Endpoint
 https://impactmindz.in/client/boub/back_end/api/product
