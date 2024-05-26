@@ -1,0 +1,51 @@
+# YouTube Clone Without Login System
+
+This project is a simple YouTube clone built with React Native, allowing users to browse and watch videos without logging in.
+
+## Features
+
+- **Home Screen**: Displays a list of videos fetched from an API. Each video item shows a thumbnail, title, and description.
+- **Infinite Scrolling**: Automatically loads more videos as the user scrolls down.
+- **Loading Indicator**: Shows a loading spinner while fetching data.
+- **Video Detail Screen**: Plays the selected video and displays its title and description.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (version 14 or higher)
+- npm
+- Expo CLI
+
+### Installation
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/itzvp/AwesomeProject
+
+   ```
+
+Install dependencies:
+npm install
+
+- npm start # you can open iOS, Android, or web from here, or run them directly with the commands below.
+- npm run android
+- npm run ios # requires an iOS device or macOS for access to an iOS simulator
+- npm run web
+
+File Structure
+
+├── assets
+│ └── styles.js # Contains styles for the app
+├── components
+│ └── VideoItem.js # Component to display individual video items
+├── screens
+│ ├── HomeScreen.js # Home screen component
+│ └── VideoDetailScreen.js # Video detail screen component
+├── App.js # Main entry point of the app
+├── package.json # Project metadata and dependencies
+└── README.md # This file
+
+API Endpoint
+https://impactmindz.in/client/boub/back_end/api/product
